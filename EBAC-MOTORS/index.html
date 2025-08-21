@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Motors</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EBAC Motors</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="#sobre">about</a></li>
+                    <li><a href="#destaque">new</a></li>
+                    <li><a href="#promocao">payandride</a></li>
+                    <li><a href="#contato">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carrossel">
+        <img src="./assets/carro-branco.jpg" alt="carro branco">
+        <img src="./assets/carro-preto.jpg" alt="carro preto">
+        <img src="./assets/carro-vermelho.jpg" alt="carro vermelho">
+        <img src="./assets/carro-azivis.jpg" alt="carro azivis">
+        <img src="./assets/carro-verde.jpg" alt="carro verde">                
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('#carrossel').slick({
+                autoplay:true,
+                arrows:false
+            })
+        })
+    </script>
+
+</body>
+</html>
