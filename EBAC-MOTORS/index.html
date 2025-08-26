@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container container-flex">
             <h1>EBAC Motors</h1>
             <div class="menu-hamburguer">
                 <span></span>
@@ -33,12 +33,21 @@
         </nav>
     </header>
     <div id="carrossel">
-        <img src="./assets/carro-branco.jpg" alt="carro branco">
-        <img src="./assets/carro-preto.jpg" alt="carro preto">
-        <img src="./assets/carro-vermelho.jpg" alt="carro vermelho">
-        <img src="./assets/carro-azivis.jpg" alt="carro azivis">
-        <img src="./assets/carro-verde.jpg" alt="carro verde">                
+        <img src="./assets/slide1.png" alt="carro porsche">
+        <img src="./assets/slide2.png" alt="carro bmw">
+        <img src="./assets/slide3.png" alt="carro branc">        
     </div>
+    <section id="about">
+        <div class="container container-flex">
+            <img src="./assets/loja.jpg" alt="imagem da loja">
+            <div>
+                <h2>Sobre a EBAC Motors</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, expedita? Necessitatibus, exercitationem obcaecati quibusdam porro asperiores nostrum quo aliquam quia earum id architecto! Cum iusto pariatur harum aut maxime. Dolorum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, expedita? Necessitatibus, exercitationem obcaecati quibusdam porro asperiores nostrum quo aliquam quia earum id architecto! Cum iusto pariatur harum aut maxime. Dolorum.<p> 
+            </div>
+           
+        </div>
+    </section>
     
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -49,6 +58,10 @@
             $('#carrossel').slick({
                 autoplay:true,
                 arrows:false
+            })
+
+            $('.menu-hamburguer').click(function(){
+                $('nav').slideToggle();
             })
         })
     </script>
