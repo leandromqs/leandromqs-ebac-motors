@@ -16,7 +16,7 @@ html{
     margin: 0px auto;
 }
 
-header{
+header, footer{
     padding-top: 16px;
     background-color: rgb(21, 14, 46);
 }
@@ -132,4 +132,78 @@ button{
 .price {
     margin: 16px 0;
     display: block;
+}
+
+.price del{
+    color: #bbbbbb;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+form{
+    max-width: 460px;
+}
+
+.campo-form{
+    margin-bottom: 16px;
+}
+
+.campo-form label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.campo-form input, 
+.campo-form textarea{
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+.campo-form input,textarea{
+    border: none;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+    
+}
+
+.campo-form textarea{
+    resize: none;
+    height: 160px;
+}
+
+form button{
+    width: 220px;
+}
+
+footer p{
+    color:azure;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul li img {
+    height: 32px;
+    margin-left: 16px;
+}
+
+.rodape{
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 24px 0;
+}
+
+
+button:hover{
+    background-color: rgb(68, 179, 40);
 }
