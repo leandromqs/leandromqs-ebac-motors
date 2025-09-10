@@ -21,6 +21,13 @@ header, footer{
     background-color: rgb(21, 14, 46);
 }
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 h1{
     color:rgb(255, 255, 255);
     font-weight: 800;
@@ -127,6 +134,7 @@ button{
     font-style: italic;
     cursor: pointer;
     border-radius: 8px;
+
 }
 
 .price {
@@ -206,4 +214,7 @@ footer{
 
 button:hover{
     background-color: rgb(68, 179, 40);
+    transform: scale(105%);
+    transition: ease-in-out;
+    
 }
